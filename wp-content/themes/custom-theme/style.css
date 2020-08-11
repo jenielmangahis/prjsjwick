@@ -1,0 +1,229 @@
+/*
+Theme Name: Fort Collins
+Theme URI: https://sjwickcpa.com/
+Author: Bryan Bio
+Author URI: http://www.holisticwebpresence.com
+Description: Custom Theme for https://sjwickcpa.com/
+Version: 1.0
+*/
+/*------------------------------------*\
+    Fonts
+\*------------------------------------*/
+@font-face {
+    font-family: futura;
+    src: url(fonts/futura_bold.otf);
+}
+@font-face {
+    font-family: opensans-bold;
+    src: url(fonts/opensans_bold.ttf);
+}
+@font-face {
+    font-family: opensans-light;
+    src: url(fonts/opensans_light.ttf);
+}
+/*------------------------------------*\
+   Main
+\*------------------------------------*/
+.mobile-only {
+    display: none !important;
+}
+.desktop-only {
+    display: block;
+}
+.img-default {
+    width: 100%;
+    display: block;
+}
+.montserrat {
+   font-family: 'Montserrat';
+}
+.left {
+    float: left;
+}
+.bold {
+    font-weight: 800;
+}
+.clearfix {
+    clear: both;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+/* END OF MAIN CSS */
+/* HOME CSS */
+.social-icons li {
+    float: left;
+    margin-right: 10px;
+    list-style: none;
+}
+i.home-social {
+    color: white;
+    font-size: 16px;
+}
+div#et-info {
+    padding-top: 8px;
+    font-weight: 600;
+}
+a.client-button {
+    background-color: #cc9330;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: -10px;
+    border-width: 2px;
+    border-color: #dda758;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    float: right;
+    padding: 7px 16px 8px 16px;
+    position: relative;
+    top: 11.4px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+a {
+    text-decoration: none !important;
+}
+a:hover, a:hover > i {
+    color: #b5b5b5 !important;
+}
+#et-info a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+#et-info a i {
+    margin-right: 5px;
+    font-weight: bold;
+}
+.home-top {
+    width: 100%;
+    background-color: #002634;
+    height: 41px;
+    position: fixed;
+    z-index: 2;
+}
+.home-navigation {
+    position: fixed;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 40px;
+    padding-top: 10px;
+    z-index: 99;
+    background: white;
+}
+.home-logo {
+    height: 100px;
+}
+.logo-default {
+    max-height: 100%;
+}
+/* HEADER MENU */
+#main-footer {
+    background: rgba(224,216,201,0.89);
+    padding-top: 3%;
+    display: flex;
+    padding-bottom: 3%;
+}
+.footer-bottom {
+    background: #002634;
+    padding: 15px 0 10px 0px;
+}
+.footer-copyright {
+    color: #cc9330;
+    font-size: 17px;
+}
+ul.copyright-social {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+ul.copyright-social li {
+    float: left;
+    margin-right: 20px;
+    list-style: none;
+}
+ul.copyright-social li a i {
+    color: #cc9330;
+    font-size: 28px;
+}
+.search-nav {
+    color: #4c4c4c;
+}
+.body-content {
+    padding-top: 158px;
+    z-index: 1;
+}
+ul#header-desktop-menu li a:hover i.search-nav {
+    color: #cc9330 !important;
+}
+ul#header-desktop-menu {
+    float: right;
+    list-style: none;
+}
+ul#header-desktop-menu li {
+    float: left;
+    padding-right: 22px;
+}
+ul#header-desktop-menu li a:hover, ul#header-desktop-menu li a.current-menu-item {
+    color: #cc9330 !important;
+}
+ul#header-desktop-menu li a::after {
+    font-family: 'ETmodules';
+    content: "\25be";
+    font-size: 16px;
+    margin-left: 10px;
+    position: relative;
+    font-weight: 800;
+    bottom: 2px;
+}
+ul#header-desktop-menu li a {
+    text-transform: uppercase;
+    color: black;
+    font-size: 17px;
+    padding-bottom: 53px;
+}
+.title {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.nav-desktop {
+    padding: 53px 0 0 0;
+}
+/* FOOTER CSS */
+.service-list {
+    padding-left: 20px;
+}
+.service-list li {
+    padding-bottom: 10px;
+}
+.service-list li a:hover {
+    color: #cc9330 !important;
+}
+.link-footer {
+    color: #cc9330 !important;
+}
+.col-4.left.sr-2 {
+    position: relative;
+    right: 22px;
+    bottom: 2px;
+}
+.service-list li a {
+    text-transform: uppercase;
+    color: #cc9330;
+}
+@media (max-width: 1000px) {
+  body {
+    overflow-x: hidden;
+  }
+  .mobile-only {
+      display: block !important;
+  }
+  .desktop-only {
+      display: none !important;
+  }
+}

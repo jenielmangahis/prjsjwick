@@ -1,0 +1,176 @@
+/*
+Theme Name: F1 EZ TRAP
+Theme URI: https://www.solventtrapsusa.com/
+Author: Bryan Bio
+Author URI: http://www.holisticwebpresence.com
+Description: Custom Theme for https://www.solventtrapsusa.com/
+Version: 1.0
+*/
+/*------------------------------------*\
+   Main
+\*------------------------------------*/
+@font-face {
+    font-family: opensans-bold;
+    src: url(fonts/opensans_bold.ttf);
+}
+@font-face {
+    font-family: opensans-light;
+    src: url(fonts/opensans_light.ttf);
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'opensans-bold';
+}
+h2 {
+    color: #f2c014;
+}
+li {
+    color: #f2c014;
+    margin-bottom: 10px;
+}
+li p, li span {
+    color: black;
+    margin: 0px;
+}
+.home-news-block img {
+    max-height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+.featured-img img {
+    width: 100%;
+    object-fit: cover;
+}
+a {
+    color: #f2c014;
+    font-size: 20px;
+}
+a:hover {
+    color: black;
+}
+p img {
+    width: 100%;
+    object-fit: cover;
+}
+a.link-footer {
+    margin-right: 0px;
+    border:0px;
+    background: none;
+    color: white;
+    font-size: 16px;
+    font-family: inherit !important;
+    font-weight: 400;
+    padding: 0px;
+}
+a.link-home {
+    border:0px;
+    background: none;
+    color: black;
+    font-size: 16px;
+    font-family: inherit !important;
+    font-weight: 400;
+    padding: 0px;
+}
+.normalize-shape a {
+    margin-right: 0px;
+    border:0px;
+    background: none;
+    font-size: 14px;
+    font-family: inherit;
+    padding: 0px;
+}
+.normalize-shape-default a, .normalize-shape-white a  {
+    margin-right: 0px;
+    border:0px;
+    background: none;
+    padding: 0px;
+}
+li.menu-item a {
+    margin-right: 0px;
+    color: black;
+    font-size: 17px;
+    background: none;
+    border: none;
+    position: relative;
+    bottom: 0px;
+    width: auto;
+    float:left;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'opensans-light';
+    font-weight: 800;
+    letter-spacing: 1.2px;
+}
+.carousel-control-next, .carousel-control-prev {
+    margin-right: 0px;
+    font-size: 17px;
+    background: none;
+    border: none;
+    position: absolute;
+    font-family: 'opensans-light';
+    font-weight: 800;
+    letter-spacing: 1.2px;
+}
+section.page-content {
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+button {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid #f2c014;
+    background: black;
+    color: #f2c014;
+    font-weight: 800;
+    position: relative;
+    font-size: 20px;
+    font-family: 'opensans-bold';
+    outline: none !important;
+    padding: 3px 40px;
+}
+span.page-numbers.current {
+    background: #bfbfbf;
+    padding: 5px 39px;
+    position: relative;
+    bottom: 1px;
+    border: solid 1px #525252;
+    font-family: 'opensans-bold';
+    font-size: 17px;
+}
+button:hover {
+    border: 1px solid black;
+    color: black;
+    background: #f2c014;
+}
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+    background: none;
+    border: none;
+}
+.normalize-shape-white a {
+    color: black;
+}
+.normalize-shape-white:hover a {
+    color: #f2c211;
+}
+@media (max-width: 1000px) {
+  div.featured-img img {
+      max-height: auto;
+      width: 100%;
+      object-fit: cover;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .col-6.left {
+      width: 100% !important;
+      max-width: 100% !important;
+      flex: 0 0 100%;
+      padding: 10px 10px;
+      display: block;
+  }
+  .page-content {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+      padding-top: 0px !important;
+  }
+}
